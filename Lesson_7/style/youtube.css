@@ -1,0 +1,13 @@
+.Tumbnail
+{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-Bar
+{
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;      
+}
