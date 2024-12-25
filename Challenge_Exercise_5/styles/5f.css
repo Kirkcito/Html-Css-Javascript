@@ -1,0 +1,32 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.Price {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.CurrencyUSD {
+  color: gray;
+}
+
+.Gained {
+  color: rgb(1, 110, 1);
+  margin-bottom: 8px;
+}
+
+.Information {
+  color: gray;
+}
+
+.Lost {
+  color: rgb(181, 0, 0);
+}

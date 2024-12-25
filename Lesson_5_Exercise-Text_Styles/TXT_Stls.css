@@ -1,0 +1,99 @@
+p
+{
+    margin: 20px 20px 20px 20px;
+}
+
+
+.Tahoma {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+
+.Arial
+{
+    width: 270px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SalesTR
+{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 12px;
+    color: red;
+}
+
+.Course
+{
+    margin-right: 20px;
+}
+
+.Begginer
+{
+    margin-right: 20px;
+
+}
+
+.Verdana
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.Title
+{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.Subtitle
+{
+    color:gray;
+    margin-bottom: 20px;
+}
+
+.Information
+{
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.Button
+{
+    background-color: green;
+    color:white;
+    border-style: none;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+
+.TitleS
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.InformationS
+{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.DescriptionS
+{
+    color: blue;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
