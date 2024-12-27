@@ -1,0 +1,17 @@
+button
+{
+    vertical-align: middle;
+    
+}
+
+.Text
+{
+    width: 210px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Button-Yes
+{
+    margin-left: 120px;
+}
