@@ -1,0 +1,49 @@
+#Div-D
+{
+    display: inline-block;
+    border: 0px solid gray;
+    border-radius: 5px;
+    padding: 10px 30px 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+.Rbt-Img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.Cmnt-txt
+{
+    display: inline-block;
+    color:gray;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Btn-twt
+{
+    margin-left: 120px;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    background-color: #1da1f2;
+    color: white;
+    margin-top: 0px;
+    
+    cursor: pointer;
+    
+}
