@@ -1,0 +1,33 @@
+.Flexbox
+{
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /*Ajustes de la letra-caligrafia */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.Row
+{
+    border: 2px solid salmon;
+    display: flex;
+    align-items: center;
+}
+
+
+.Button-With-Number
+{  
+    background-color: skyblue;
+    color: white;
+    vertical-align: middle;
+    border: none;
+    padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    margin-left: 15px;
+}

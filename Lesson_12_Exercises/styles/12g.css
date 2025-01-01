@@ -1,0 +1,68 @@
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.Flexbox
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Profile
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    border: 6px solid orange;
+    margin: 10px; 
+}
+
+.Image-Row
+{
+    border: 1px solid paleturquoise;
+}
+
+.Text-Row
+{
+    border: 1px solid sienna;
+}
+
+.Button-Row
+{
+    border: 1px solid blueviolet;
+    
+}
+
+.User-Image
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.Username
+{
+    font-weight: bold;
+}
+
+.Middle-text
+{
+    color: gray;
+    font-size: 12px;
+}
+
+.Follow-button
+{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+}

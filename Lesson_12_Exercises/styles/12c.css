@@ -1,0 +1,9 @@
+.Flexbox
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*No los estira y los mueve hacia el centro.*/
+    /*align-items: center;*/
+}
