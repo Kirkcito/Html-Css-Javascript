@@ -1,12 +1,13 @@
 p
 {
     font-family: Arial, Helvetica, sans-serif;
-    margin:0;
+    margin:0px;
+    margin-bottom: 2px;
 }
 
 .Flexbox
 {
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,24 +20,23 @@ p
     flex-direction: row;
     align-items: center;
     column-gap: 20px;
-    border: 6px solid orange;
+    
     margin: 10px; 
 }
 
 .Image-Row
 {
-    border: 1px solid paleturquoise;
+    
 }
 
 .Text-Row
 {
-    border: 1px solid sienna;
+    
 }
 
 .Button-Row
 {
-    border: 1px solid blueviolet;
-    
+        
 }
 
 .User-Image
@@ -50,19 +50,27 @@ p
 .Username
 {
     font-weight: bold;
+    font-size: 17px;
 }
 
 .Middle-text
 {
     color: gray;
-    font-size: 12px;
+    font-size: 18px;
+    
+}
+
+.Middle-text1
+{
+    color: gray;
+    font-size: 15px;
 }
 
 .Follow-button
 {
-    background-color: skyblue;
+    background-color: rgb(29, 155, 240);
     color: white;
     border: none;
-    border-radius: 12px;
+    border-radius: 4px;
     padding: 8px 12px;
 }
