@@ -1,0 +1,111 @@
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    margin: 0;
+}
+
+button
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Flexbox
+{
+    display: flex;
+
+}
+
+.Image-Row
+{
+    display: flex;
+ 
+    margin-right: 8px;
+}
+
+.User-Image
+{
+    width:40px ;
+    height:40px ;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.User-Col
+{
+  
+}
+
+.Username
+{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.Arroba-Username
+{
+    color: gray;
+}
+
+.Comment
+{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+
+.Link
+{
+    text-decoration: none;
+}
+
+.Custom-Button {
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 120px;
+    cursor: pointer;
+
+    border: 0.1px solid rgb(183, 182, 182);
+}
+
+
+.Gray-Button
+{
+    margin-top: 0px;
+    width: 120px;
+    height: 120px;
+}
+
+.WebsiteLogo
+{
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+}
+
+.White-Button
+{
+    margin-left: 10px;
+}
+
+.Website
+{
+    color: gray;
+    margin-bottom: 2px;
+    
+}
+
+.Video-Info
+{
+    color: black;
+    width: 220px;
+}
