@@ -1,0 +1,11 @@
+.Gray-Box
+{
+    position: fixed;
+    background-color: gray;
+    width: 220px;
+    height: 120px;
+    
+    bottom: 5px;
+    right: 5px;
+    
+}

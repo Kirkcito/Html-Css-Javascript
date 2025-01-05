@@ -1,0 +1,44 @@
+div
+{
+    font-family: Roboto,Arial;
+}
+
+body
+{
+    /*Esto es solo meramente estetico, para que aparezca en la mitad
+    de la pantalla.*/
+    display: flex;
+    justify-content: center;
+}
+
+.Image-Relative-Row
+{
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+
+    width: 300px;
+    height: 250px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Image-Merch
+{
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.Discount-Tag
+{
+    
+    position: absolute;
+
+    top: 7px;
+    right: 0px;
+
+    color: white;
+    background-color: black;
+}

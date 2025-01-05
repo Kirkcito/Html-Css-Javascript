@@ -1,0 +1,43 @@
+div
+{
+    font-family: Roboto,Arial;
+}
+
+.Gray-Box
+{
+    position: fixed;
+    background-color: gray;
+    width: 220px;
+    height: 120px;
+    
+    bottom: 5px;
+    right: 5px;
+    
+}
+
+.Close-Button
+{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.Timestamp
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+
+    font-size: 12px;
+
+    padding: 2px 5px;
+
+    right: 5px;
+    bottom: 5px;
+}
