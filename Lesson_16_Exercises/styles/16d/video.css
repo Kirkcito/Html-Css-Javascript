@@ -1,0 +1,148 @@
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+
+.video-link
+{
+  text-decoration: none;
+  color: black;
+}
+
+.author-link
+{
+  text-decoration: none;
+  color: black;
+}
+
+.profile-picture-container
+{
+  position: relative;
+  display: inline-block;
+
+
+  transition: opacity 0.15s;
+}
+
+.profile-picture-container:hover .tooltip-preview-channel
+{
+  opacity: 1;
+}
+
+.tooltip-preview-channel
+{
+
+  background-color: white;
+  width: 220px;
+  padding: 12px 12px;
+  display: flex;
+
+  position: absolute;
+  top: 48px;
+  left: 30px;
+  z-index: 300;
+
+  box-shadow:  2px 3px 10px rgba(0,0,0,0.5);
+
+  pointer-events: none;
+
+  opacity: 0;
+
+  border-radius: 6px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  
+  align-items: center;
+
+
+  transition: opacity 0.15s;
+}
+
+.tooltip-preview-channel .tooltip-Image
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+
+  margin-right: 8px;
+}
+
+.tooltip-preview-channel .tooltip-Text
+{
+  font-family: Roboto,Arial;
+  
+}
+
+.tooltip-preview-channel .channel-name 
+{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+
+}
+
+.tooltip-preview-channel .channel-subscribers 
+{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+
+}
